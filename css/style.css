@@ -1,0 +1,48 @@
+/* Base css */
+body{
+    background-color: #fff;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+margin: 0 0 15px;
+font-weight: 700;
+}
+body{
+	font-family: 'open Sans', sans-serif;
+}
+a:hover{text-decoration: none;}
+.section-padding{
+	padding: 88px 0;
+}
+.schedule th {
+    background: #f0f0f0;
+    font-weight: 400;
+    text-align: center;
+}
+
+.schedule {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.schedule th, .schedule td {
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 28px;
+}
+
+.schedule h4 {
+    font-weight: 400;
+}
